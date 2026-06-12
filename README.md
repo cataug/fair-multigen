@@ -1,9 +1,5 @@
-Вот полный **README.md** в одном окне, готовый к копированию в файл:
-
-```markdown
 # MAF-TabGen: Multi-Attribute Fairness-Aware Tabular Data Generation
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 MAF-TabGen is a Python-based framework for **multi-attribute fairness-aware synthetic tabular data generation**.  
 It extends tree-based tabular generators (like GDT) to support **multi-attribute and non-binary sensitive features** with multiple fairness constraints (e.g., Equalized Odds, Demographic Parity).
