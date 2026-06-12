@@ -1,0 +1,5 @@
+*.pyc
+__pycache__/
+RESULTS/
+*.log
+.venv_a100/
