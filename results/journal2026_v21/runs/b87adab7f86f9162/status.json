@@ -1,0 +1,11 @@
+{
+  "job_id": "b87adab7f86f9162",
+  "status": "failed",
+  "started": 1791172158.8749053,
+  "host": "tahiti-Standard-PC-i440FX-PIIX-1996",
+  "pid": 10885,
+  "finished": 1791172224.3267848,
+  "error_type": "IndexError",
+  "error": "index 1 is out of bounds for axis 1 with size 1",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/tahiti/MultiFairGDT/multifair/runner.py\", line 297, in run_job\n    rows, preds, yte = downstream_metrics(\n                       ^^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/MultiFairGDT/multifair/evaluate.py\", line 244, in downstream_metrics\n    proba = pipe.predict_proba(Xte)[:, 1]\n            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\nIndexError: index 1 is out of bounds for axis 1 with size 1\n"
+}

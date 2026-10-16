@@ -1,0 +1,7 @@
+job_id,family,eval_split,dataset,seed,method,k,ablation,classifier,support_bucket,n_groups,eo_max_mean_within_bucket,aod_mean_within_bucket
+c15f515c34b4ecd3,core,test,bank_marketing,42,multifair,1,,rf,1-4,0,,
+c15f515c34b4ecd3,core,test,bank_marketing,42,multifair,1,,rf,5-9,0,,
+c15f515c34b4ecd3,core,test,bank_marketing,42,multifair,1,,rf,10-19,0,,
+c15f515c34b4ecd3,core,test,bank_marketing,42,multifair,1,,rf,20-49,0,,
+c15f515c34b4ecd3,core,test,bank_marketing,42,multifair,1,,rf,50-99,0,,
+c15f515c34b4ecd3,core,test,bank_marketing,42,multifair,1,,rf,100+,6,0.13009528479832358,0.09097296635182263

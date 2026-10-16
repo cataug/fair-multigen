@@ -1,0 +1,7 @@
+job_id,family,eval_split,dataset,seed,method,k,ablation,classifier,support_bucket,n_groups,eo_max_mean_within_bucket,aod_mean_within_bucket
+88e8b0184f429b49,core,test,diabetes130,43,multifair,1,,rf,1-4,0,,
+88e8b0184f429b49,core,test,diabetes130,43,multifair,1,,rf,5-9,0,,
+88e8b0184f429b49,core,test,diabetes130,43,multifair,1,,rf,10-19,0,,
+88e8b0184f429b49,core,test,diabetes130,43,multifair,1,,rf,20-49,0,,
+88e8b0184f429b49,core,test,diabetes130,43,multifair,1,,rf,50-99,0,,
+88e8b0184f429b49,core,test,diabetes130,43,multifair,1,,rf,100+,2,0.0025682843331717147,0.0022244643351102726

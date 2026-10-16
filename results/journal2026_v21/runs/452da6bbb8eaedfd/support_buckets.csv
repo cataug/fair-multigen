@@ -1,0 +1,7 @@
+job_id,family,eval_split,dataset,seed,method,k,ablation,classifier,support_bucket,n_groups,eo_max_mean_within_bucket,aod_mean_within_bucket
+452da6bbb8eaedfd,ablation|sweep,test,communities_crime,42,multifair,4,no_util,rf,1-4,87,0.3795615517557095,0.3371789581431576
+452da6bbb8eaedfd,ablation|sweep,test,communities_crime,42,multifair,4,no_util,rf,5-9,11,0.4226983207874927,0.28957916721379373
+452da6bbb8eaedfd,ablation|sweep,test,communities_crime,42,multifair,4,no_util,rf,10-19,3,0.6515341228717025,0.41741603525043014
+452da6bbb8eaedfd,ablation|sweep,test,communities_crime,42,multifair,4,no_util,rf,20-49,1,0.6405823475887171,0.40420725771044247
+452da6bbb8eaedfd,ablation|sweep,test,communities_crime,42,multifair,4,no_util,rf,50-99,0,,
+452da6bbb8eaedfd,ablation|sweep,test,communities_crime,42,multifair,4,no_util,rf,100+,0,,

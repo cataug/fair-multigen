@@ -1,0 +1,105 @@
+{
+  "adult": {
+    "target": "income",
+    "target_rule": ">50K",
+    "binary_sensitive": ["sex"],
+    "multivalued_sensitive": ["race", "marital-status"],
+    "continuous_sensitive": ["age"],
+    "age_bins": [0, 25, 35, 45, 55, 65, 200],
+    "intersection_order": ["sex", "race", "age", "marital-status"]
+  },
+
+  "compas": {
+    "target": "two_year_recid",
+    "target_rule": "as_is",
+    "apply_standard_filter": true,
+    "binary_sensitive": ["sex"],
+    "multivalued_sensitive": ["race"],
+    "continuous_sensitive": ["age"],
+    "age_bins": [0, 25, 35, 45, 55, 65, 200],
+    "intersection_order": ["sex", "race", "age"]
+  },
+
+  "default_credit": {
+    "target": "default payment next month",
+    "target_rule": "as_is",
+    "binary_sensitive": ["SEX"],
+    "multivalued_sensitive": ["MARRIAGE", "EDUCATION"],
+    "continuous_sensitive": ["AGE"],
+    "age_bins": [0, 25, 35, 45, 55, 65, 200],
+    "intersection_order": ["SEX", "AGE", "MARRIAGE", "EDUCATION"]
+  },
+
+  "bank_marketing": {
+    "target": "y",
+    "target_rule": "yes=1",
+    "binary_sensitive": [],
+    "multivalued_sensitive": ["marital", "education"],
+    "continuous_sensitive": ["age"],
+    "age_bins": [0, 25, 35, 45, 55, 65, 200],
+    "intersection_order": ["age", "marital", "education"],
+    "note": "Marital status and education are treated as grouping attributes, not universally protected attributes."
+  },
+
+  "communities_crime": {
+    "target": "ViolentCrimesPerPop",
+    "target_rule": "median_binary",
+    "binary_sensitive": [],
+    "multivalued_sensitive": [],
+    "continuous_sensitive": [
+      "racepctblack",
+      "racePctWhite",
+      "racePctAsian",
+      "racePctHisp"
+    ],
+    "continuous_grouping": "quantile",
+    "n_bins": 4,
+    "intersection_order": [
+      "racepctblack",
+      "racePctWhite",
+      "racePctAsian",
+      "racePctHisp"
+    ],
+    "note": "Community-level racial composition variables, not individual protected attributes."
+  },
+
+  "german_credit": {
+    "target": "credit_risk",
+    "target_rule": "1=good,2=bad",
+    "derived_sensitive": ["sex"],
+    "multivalued_sensitive": ["foreign_worker"],
+    "continuous_sensitive": ["age"],
+    "age_bins": [0, 25, 35, 45, 55, 65, 200],
+    "intersection_order": ["sex", "age", "foreign_worker"],
+    "sex_source": "personal_status_sex"
+  },
+
+  "census_income_kdd": {
+    "target": "income",
+    "target_rule": ">50K",
+    "binary_sensitive": ["sex"],
+    "multivalued_sensitive": ["race", "marital stat"],
+    "continuous_sensitive": ["age"],
+    "age_bins": [0, 25, 35, 45, 55, 65, 200],
+    "intersection_order": ["sex", "race", "age", "marital stat"]
+  },
+
+  "diabetes130": {
+    "target": "readmitted",
+    "target_rule": "<30=1_else=0",
+    "binary_sensitive": ["gender"],
+    "multivalued_sensitive": ["race", "age"],
+    "continuous_sensitive": [],
+    "intersection_order": ["gender", "race", "age"]
+  },
+
+  "law_school": {
+    "target": "bar",
+    "target_rule": "as_is",
+    "binary_sensitive": ["gender"],
+    "multivalued_sensitive": ["race1"],
+    "continuous_sensitive": ["age"],
+    "age_bins": [0, 23, 26, 30, 35, 45, 200],
+    "intersection_order": ["gender", "race1", "age"]
+  }
+}

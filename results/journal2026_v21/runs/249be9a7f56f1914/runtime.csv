@@ -1,0 +1,2 @@
+job_id,family,dataset,seed,method,k,runtime_n,train_rows,fit_seconds,generation_seconds,feature_generation_seconds,samples_per_second,job_seconds,rss_start_mb,rss_end_mb,final_lambda_dp,final_lambda_eo,feature_lambda_dp,feature_lambda_eo,feature_corrected_column,candidate_count,tree_cache_hit
+249be9a7f56f1914,generic_baselines,census_income_kdd,46,tabddpm,0,,209499,3851.2101944379974,8734.683363748016,,23.984727468140857,12777.211328882957,2042.58203125,2612.4765625,,,,,,16,False

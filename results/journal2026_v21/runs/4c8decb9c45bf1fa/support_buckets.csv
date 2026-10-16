@@ -1,0 +1,7 @@
+job_id,family,eval_split,dataset,seed,method,k,ablation,classifier,support_bucket,n_groups,eo_max_mean_within_bucket,aod_mean_within_bucket
+4c8decb9c45bf1fa,generic_baselines,test,census_income_kdd,42,gaussian_copula,4,,rf,1-4,111,0.0,0.0
+4c8decb9c45bf1fa,generic_baselines,test,census_income_kdd,42,gaussian_copula,4,,rf,5-9,39,0.0,0.0
+4c8decb9c45bf1fa,generic_baselines,test,census_income_kdd,42,gaussian_copula,4,,rf,10-19,40,0.0,0.0
+4c8decb9c45bf1fa,generic_baselines,test,census_income_kdd,42,gaussian_copula,4,,rf,20-49,48,0.0,0.0
+4c8decb9c45bf1fa,generic_baselines,test,census_income_kdd,42,gaussian_copula,4,,rf,50-99,18,0.0,0.0
+4c8decb9c45bf1fa,generic_baselines,test,census_income_kdd,42,gaussian_copula,4,,rf,100+,55,0.0,0.0

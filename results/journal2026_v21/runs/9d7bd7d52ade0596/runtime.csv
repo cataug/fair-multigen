@@ -1,0 +1,2 @@
+job_id,family,dataset,seed,method,k,runtime_n,train_rows,fit_seconds,generation_seconds,feature_generation_seconds,samples_per_second,job_seconds,rss_start_mb,rss_end_mb,final_lambda_dp,final_lambda_eo,feature_lambda_dp,feature_lambda_eo,feature_corrected_column,candidate_count,tree_cache_hit
+9d7bd7d52ade0596,fair_baselines,german_credit,43,decaf,1,,700,1967.8795319519704,2.4950722970534116,,280.55299272356723,1980.221686645993,183.64453125,1948.796875,,,,,,16,False

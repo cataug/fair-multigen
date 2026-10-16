@@ -1,0 +1,7 @@
+job_id,family,eval_split,dataset,seed,method,k,ablation,classifier,support_bucket,n_groups,eo_max_mean_within_bucket,aod_mean_within_bucket
+8442ade70ae67acb,generic_baselines,test,adult,45,tabddpm,4,,rf,1-4,108,0.23969881393279913,0.21557533665924503
+8442ade70ae67acb,generic_baselines,test,adult,45,tabddpm,4,,rf,5-9,41,0.28341419947020036,0.225681482171713
+8442ade70ae67acb,generic_baselines,test,adult,45,tabddpm,4,,rf,10-19,19,0.3729479399597587,0.25479648645494823
+8442ade70ae67acb,generic_baselines,test,adult,45,tabddpm,4,,rf,20-49,27,0.40420759959343505,0.2716237283732871
+8442ade70ae67acb,generic_baselines,test,adult,45,tabddpm,4,,rf,50-99,10,0.5059552325360988,0.319261780299834
+8442ade70ae67acb,generic_baselines,test,adult,45,tabddpm,4,,rf,100+,16,0.4301944593957224,0.27819896178213116

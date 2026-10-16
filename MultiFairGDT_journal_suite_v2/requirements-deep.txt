@@ -1,0 +1,6 @@
+# Install in a separate environment if possible.
+# These packages are optional; core GDT/MultiFair experiments do not require them.
+sdv>=1.17
+synthcity>=0.2.11
+tabfairgan
+torch

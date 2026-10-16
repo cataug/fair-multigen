@@ -1,0 +1,2 @@
+job_id,family,dataset,seed,method,k,runtime_n,train_rows,fit_seconds,generation_seconds,feature_generation_seconds,samples_per_second,job_seconds,rss_start_mb,rss_end_mb,final_lambda_dp,final_lambda_eo,feature_lambda_dp,feature_lambda_eo,feature_corrected_column,candidate_count,tree_cache_hit
+f7adc604d111447f,sweep,bank_marketing,42,multifair,3,,31647,0.8591265860013664,11.605299585033208,10.263913780916482,2726.9438214945867,15.231247073970735,452.54296875,497.234375,1.1663272106894695,1.109320906697679,1.2242226202829798,1.259624363703718,education,16,True

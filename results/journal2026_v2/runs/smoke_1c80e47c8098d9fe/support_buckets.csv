@@ -1,0 +1,7 @@
+job_id,family,dataset,seed,method,k,ablation,classifier,support_bucket,n_groups,eo_max_mean_within_bucket,aod_mean_within_bucket
+smoke_1c80e47c8098d9fe,core,adult,42,multifair,1,,rf,1-4,0,,
+smoke_1c80e47c8098d9fe,core,adult,42,multifair,1,,rf,5-9,0,,
+smoke_1c80e47c8098d9fe,core,adult,42,multifair,1,,rf,10-19,0,,
+smoke_1c80e47c8098d9fe,core,adult,42,multifair,1,,rf,20-49,0,,
+smoke_1c80e47c8098d9fe,core,adult,42,multifair,1,,rf,50-99,0,,
+smoke_1c80e47c8098d9fe,core,adult,42,multifair,1,,rf,100+,2,0.21340037534257458,0.13623591032724333

@@ -1,0 +1,2 @@
+job_id,family,dataset,seed,method,k,runtime_n,train_rows,fit_seconds,generation_seconds,feature_generation_seconds,samples_per_second,job_seconds,rss_start_mb,rss_end_mb,final_lambda_dp,final_lambda_eo,feature_lambda_dp,feature_lambda_eo,feature_corrected_column,candidate_count,tree_cache_hit
+0a83b6246e705c92,runtime,adult,42,gdt,0,5000,5000,0.18918463797308505,0.06674598390236497,0.05262203002348542,74910.87414808245,0.3014139358419925,436.78515625,436.91015625,0.0,0.0,0.0,0.0,,16,False

@@ -1,0 +1,2 @@
+job_id,family,dataset,seed,method,k,runtime_n,train_rows,fit_seconds,generation_seconds,feature_generation_seconds,samples_per_second,job_seconds,rss_start_mb,rss_end_mb,final_lambda_dp,final_lambda_eo,feature_lambda_dp,feature_lambda_eo,feature_corrected_column,candidate_count,tree_cache_hit
+fe63b52260928049,generic_baselines,bank_marketing,46,gaussian_copula,0,,31647,10.257247203029692,1.0670337390620261,,29658.85598689619,17.321459122002125,622.72265625,735.62890625,,,,,,16,False

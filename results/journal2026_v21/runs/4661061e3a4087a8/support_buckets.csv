@@ -1,0 +1,7 @@
+job_id,family,eval_split,dataset,seed,method,k,ablation,classifier,support_bucket,n_groups,eo_max_mean_within_bucket,aod_mean_within_bucket
+4661061e3a4087a8,generic_baselines,test,german_credit,43,tabddpm,3,,rf,1-4,12,0.4759259259259259,0.4595238095238095
+4661061e3a4087a8,generic_baselines,test,german_credit,43,tabddpm,3,,rf,5-9,2,0.5,0.35
+4661061e3a4087a8,generic_baselines,test,german_credit,43,tabddpm,3,,rf,10-19,2,0.4777777777777778,0.3392857142857143
+4661061e3a4087a8,generic_baselines,test,german_credit,43,tabddpm,3,,rf,20-49,3,0.20505698005698003,0.15305759055759055
+4661061e3a4087a8,generic_baselines,test,german_credit,43,tabddpm,3,,rf,50-99,0,,
+4661061e3a4087a8,generic_baselines,test,german_credit,43,tabddpm,3,,rf,100+,0,,

@@ -1,0 +1,2 @@
+job_id,family,dataset,seed,method,k,runtime_n,train_rows,fit_seconds,generation_seconds,feature_generation_seconds,samples_per_second,job_seconds,rss_start_mb,rss_end_mb,final_lambda_dp,final_lambda_eo,feature_lambda_dp,feature_lambda_eo,feature_corrected_column,candidate_count,tree_cache_hit
+e6fbe5306fb777a6,sweep,german_credit,43,multifair,3,,700,0.055848442018032074,0.33036676701158285,0.28895337996073067,2118.8571911516074,0.9776526300702244,411.73046875,411.73046875,0.2525218138560227,0.251535919945342,0.2517544329911491,0.2521357761550665,foreign_worker,16,True

@@ -1,0 +1,2 @@
+job_id,family,dataset,seed,method,k,runtime_n,train_rows,fit_seconds,generation_seconds,feature_generation_seconds,samples_per_second,job_seconds,rss_start_mb,rss_end_mb,final_lambda_dp,final_lambda_eo,feature_lambda_dp,feature_lambda_eo,feature_corrected_column,candidate_count,tree_cache_hit
+86300ad178b3041a,ablation,law_school,44,multifair,3,,14560,0.22140201297588646,5.091521811205894,4.45034785894677,2859.655823913982,6.641754849115387,1221.890625,1221.890625,1.1886091464913777,1.1365286967864756,1.1784167829404124,1.1406360975882968,race1,16,True

@@ -1,0 +1,2 @@
+job_id,family,dataset,seed,method,k,runtime_n,train_rows,fit_seconds,generation_seconds,feature_generation_seconds,samples_per_second,job_seconds,rss_start_mb,rss_end_mb,final_lambda_dp,final_lambda_eo,feature_lambda_dp,feature_lambda_eo,feature_corrected_column,candidate_count,tree_cache_hit
+e85807c716473d01,generic_baselines,diabetes130,46,gaussian_copula,0,,71285,69.22838367987424,6.864137551980093,,10385.135708627586,132.34411020297557,1336.703125,1339.49609375,,,,,,16,False

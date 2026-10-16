@@ -1,0 +1,11 @@
+{
+  "job_id": "3ce3eaeffa55c321",
+  "status": "failed",
+  "started": 1790096070.271977,
+  "host": "tahiti-Standard-PC-i440FX-PIIX-1996",
+  "pid": 3318349,
+  "finished": 1790096070.3400836,
+  "error_type": "RuntimeError",
+  "error": "TabFairGAN requested but tabfairgan is unavailable. Install requirements-deep.txt.",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/tahiti/MultiFairGDT/multifair/baselines.py\", line 139, in _tabfairgan_synth\n    from tabfairgan import TFG\nModuleNotFoundError: No module named 'tabfairgan'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/tahiti/MultiFairGDT/multifair/runner.py\", line 239, in run_job\n    syn, meta = generate_external(\n                ^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/MultiFairGDT/multifair/baselines.py\", line 224, in generate_external\n    syn, meta = _tabfairgan_synth(train, dataset, n, seed, epochs=epochs)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/MultiFairGDT/multifair/baselines.py\", line 141, in _tabfairgan_synth\n    raise RuntimeError(\nRuntimeError: TabFairGAN requested but tabfairgan is unavailable. Install requirements-deep.txt.\n"
+}

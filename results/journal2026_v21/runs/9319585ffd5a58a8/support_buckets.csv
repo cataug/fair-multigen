@@ -1,0 +1,7 @@
+job_id,family,eval_split,dataset,seed,method,k,ablation,classifier,support_bucket,n_groups,eo_max_mean_within_bucket,aod_mean_within_bucket
+9319585ffd5a58a8,generic_baselines,test,diabetes130,44,ctgan,3,,rf,1-4,16,0.012142369279805722,0.012142369279805722
+9319585ffd5a58a8,generic_baselines,test,diabetes130,44,ctgan,3,,rf,5-9,11,0.014588025733804327,0.013365197506805026
+9319585ffd5a58a8,generic_baselines,test,diabetes130,44,ctgan,3,,rf,10-19,18,0.01737335669530274,0.014757862987554231
+9319585ffd5a58a8,generic_baselines,test,diabetes130,44,ctgan,3,,rf,20-49,14,0.018387527724837874,0.015264948502321797
+9319585ffd5a58a8,generic_baselines,test,diabetes130,44,ctgan,3,,rf,50-99,7,0.018867924528301886,0.014698166506011056
+9319585ffd5a58a8,generic_baselines,test,diabetes130,44,ctgan,3,,rf,100+,23,0.01947541806073731,0.014871810831746893

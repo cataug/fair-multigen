@@ -1,0 +1,2 @@
+job_id,family,dataset,seed,method,k,runtime_n,train_rows,fit_seconds,generation_seconds,feature_generation_seconds,samples_per_second,job_seconds,rss_start_mb,rss_end_mb,final_lambda_dp,final_lambda_eo,feature_lambda_dp,feature_lambda_eo,feature_corrected_column,candidate_count,tree_cache_hit
+d0103a3bfa4a5f5f,generic_baselines,default_credit,43,gaussian_copula,0,,21000,10.297278597950935,1.1555897558573633,,18172.539081068204,19.15803893492557,1359.671875,1385.15625,,,,,,16,False

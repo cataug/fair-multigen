@@ -1,0 +1,2 @@
+job_id,family,dataset,seed,method,k,runtime_n,train_rows,fit_seconds,generation_seconds,feature_generation_seconds,samples_per_second,job_seconds,rss_start_mb,rss_end_mb,final_lambda_dp,final_lambda_eo,feature_lambda_dp,feature_lambda_eo,feature_corrected_column,candidate_count,tree_cache_hit
+d393f1f85595af02,core,bank_marketing,44,singlefair,0,,31647,0.848517457023263,1.6027801882009953,0.25643296795897186,19745.065625949286,18.635609335964546,464.55078125,465.12109375,1.0698209678929647,1.0127745696384638,0.0,0.0,,16,True

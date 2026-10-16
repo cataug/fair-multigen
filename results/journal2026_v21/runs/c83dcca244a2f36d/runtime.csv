@@ -1,0 +1,2 @@
+job_id,family,dataset,seed,method,k,runtime_n,train_rows,fit_seconds,generation_seconds,feature_generation_seconds,samples_per_second,job_seconds,rss_start_mb,rss_end_mb,final_lambda_dp,final_lambda_eo,feature_lambda_dp,feature_lambda_eo,feature_corrected_column,candidate_count,tree_cache_hit
+c83dcca244a2f36d,generic_baselines,diabetes130,46,tabddpm,0,,71285,6406.795849269998,23968.117031534995,,2.9741593762334313,30423.288808913996,183.45703125,2192.4375,,,,,,16,False

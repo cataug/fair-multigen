@@ -1,0 +1,2 @@
+job_id,family,dataset,seed,method,k,runtime_n,train_rows,fit_seconds,generation_seconds,feature_generation_seconds,samples_per_second,job_seconds,rss_start_mb,rss_end_mb,final_lambda_dp,final_lambda_eo,feature_lambda_dp,feature_lambda_eo,feature_corrected_column,candidate_count,tree_cache_hit
+eb4342a66ecdd365,fair_baselines,compas,43,decaf,1,,4320,26251.686706091998,2.743512067998381,,1574.6240194787251,26264.841078674002,183.41015625,2854.34375,,,,,,16,False

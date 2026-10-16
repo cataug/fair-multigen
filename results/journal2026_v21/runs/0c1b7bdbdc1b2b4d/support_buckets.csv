@@ -1,0 +1,7 @@
+job_id,family,eval_split,dataset,seed,method,k,ablation,classifier,support_bucket,n_groups,eo_max_mean_within_bucket,aod_mean_within_bucket
+0c1b7bdbdc1b2b4d,generic_baselines,test,compas,44,gaussian_copula,3,,rf,1-4,22,0.0487066996485872,0.04380110220048134
+0c1b7bdbdc1b2b4d,generic_baselines,test,compas,44,gaussian_copula,3,,rf,5-9,5,0.04554455445544554,0.028276851438112937
+0c1b7bdbdc1b2b4d,generic_baselines,test,compas,44,gaussian_copula,3,,rf,10-19,10,0.06589909867750783,0.0362956606719775
+0c1b7bdbdc1b2b4d,generic_baselines,test,compas,44,gaussian_copula,3,,rf,20-49,7,0.04774786152084596,0.02506157921647999
+0c1b7bdbdc1b2b4d,generic_baselines,test,compas,44,gaussian_copula,3,,rf,50-99,3,0.03378101356933723,0.018078155240725625
+0c1b7bdbdc1b2b4d,generic_baselines,test,compas,44,gaussian_copula,3,,rf,100+,2,0.010123239436619719,0.00624926817436687

@@ -1,0 +1,2 @@
+job_id,family,dataset,seed,method,k,runtime_n,train_rows,fit_seconds,generation_seconds,feature_generation_seconds,samples_per_second,job_seconds,rss_start_mb,rss_end_mb,final_lambda_dp,final_lambda_eo,feature_lambda_dp,feature_lambda_eo,feature_corrected_column,candidate_count,tree_cache_hit
+be81197ccf1ba9a5,generic_baselines,adult,43,tabddpm,0,,34188,667.224167499,1370.0957446360003,,24.953000645281826,2058.9711657810003,183.48046875,1957.890625,,,,,,16,False

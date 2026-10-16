@@ -1,0 +1,9 @@
+{
+  "job_id": "smoke_3841b22f4e37cd85",
+  "status": "success",
+  "started": 1790080918.525288,
+  "host": "tahiti-Standard-PC-i440FX-PIIX-1996",
+  "pid": 3310227,
+  "finished": 1790081039.9798453,
+  "metrics_rows": 3
+}

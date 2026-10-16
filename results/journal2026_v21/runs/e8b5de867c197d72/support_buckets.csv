@@ -1,0 +1,7 @@
+job_id,family,eval_split,dataset,seed,method,k,ablation,classifier,support_bucket,n_groups,eo_max_mean_within_bucket,aod_mean_within_bucket
+e8b5de867c197d72,generic_baselines,test,law_school,42,tabddpm,3,,rf,1-4,4,0.07061147041083041,0.06106221935527113
+e8b5de867c197d72,generic_baselines,test,law_school,42,tabddpm,3,,rf,5-9,1,0.29457364341085274,0.1730433058552823
+e8b5de867c197d72,generic_baselines,test,law_school,42,tabddpm,3,,rf,10-19,1,0.37209302325581395,0.2118029957777629
+e8b5de867c197d72,generic_baselines,test,law_school,42,tabddpm,3,,rf,20-49,1,0.4612403100775194,0.24898131794772732
+e8b5de867c197d72,generic_baselines,test,law_school,42,tabddpm,3,,rf,50-99,0,,
+e8b5de867c197d72,generic_baselines,test,law_school,42,tabddpm,3,,rf,100+,4,0.2379827218454268,0.15654437930390905

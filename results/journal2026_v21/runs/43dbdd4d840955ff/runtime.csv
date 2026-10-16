@@ -1,0 +1,2 @@
+job_id,family,dataset,seed,method,k,runtime_n,train_rows,fit_seconds,generation_seconds,feature_generation_seconds,samples_per_second,job_seconds,rss_start_mb,rss_end_mb,final_lambda_dp,final_lambda_eo,feature_lambda_dp,feature_lambda_eo,feature_corrected_column,candidate_count,tree_cache_hit
+43dbdd4d840955ff,sweep,communities_crime,42,multifair,4,,1395,2.7798993280157447,1.0975772188976407,1.0267035469878465,1270.9811901900423,1.94925482198596,485.03125,485.03125,1.0152834334687395,1.0120595295652213,1.0131689415368257,1.0123883332212376,racePctHisp,32,True

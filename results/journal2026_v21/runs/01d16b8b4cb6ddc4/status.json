@@ -1,0 +1,11 @@
+{
+  "job_id": "01d16b8b4cb6ddc4",
+  "status": "failed",
+  "started": 1790152939.5393367,
+  "host": "tahiti-Standard-PC-i440FX-PIIX-1996",
+  "pid": 3453613,
+  "finished": 1790152939.6105754,
+  "error_type": "TypeError",
+  "error": "When fair_epochs is > 0, 'S_under' must be a string.",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/tahiti/MultiFairGDT/multifair/runner.py\", line 239, in run_job\n    syn, meta = generate_external(\n                ^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/MultiFairGDT/multifair/baselines.py\", line 224, in generate_external\n    syn, meta = _tabfairgan_synth(train, dataset, n, seed, epochs=epochs)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/MultiFairGDT/multifair/baselines.py\", line 185, in _tabfairgan_synth\n    model = TFG(\n            ^^^^\n  File \"/home/tahiti/MultiFairGDT/.venv_external/lib/python3.12/site-packages/tabfairgan/main.py\", line 49, in __init__\n    raise TypeError(\"When fair_epochs is > 0, 'S_under' must be a string.\")\nTypeError: When fair_epochs is > 0, 'S_under' must be a string.\n"
+}

@@ -1,0 +1,2 @@
+job_id,family,dataset,seed,method,k,runtime_n,train_rows,fit_seconds,generation_seconds,feature_generation_seconds,samples_per_second,job_seconds,rss_start_mb,rss_end_mb,final_lambda_dp,final_lambda_eo,feature_lambda_dp,feature_lambda_eo,feature_corrected_column,candidate_count,tree_cache_hit
+ddabe7e302fae6b3,generic_baselines,law_school,44,ctgan,0,,14560,310.25812682602555,0.34283600095659494,,42469.28548744617,312.9555472889915,2305.86328125,2310.50390625,,,,,,16,False

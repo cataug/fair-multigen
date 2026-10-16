@@ -1,0 +1,2 @@
+job_id,family,dataset,seed,method,k,runtime_n,train_rows,fit_seconds,generation_seconds,feature_generation_seconds,samples_per_second,job_seconds,rss_start_mb,rss_end_mb,final_lambda_dp,final_lambda_eo,feature_lambda_dp,feature_lambda_eo,feature_corrected_column,candidate_count,tree_cache_hit
+58fef372719bc60a,sweep,default_credit,44,multifair,4,,21000,1.872288198210299,7.71648683398962,6.810124810785055,2721.445711213955,12.731048981891945,502.0234375,503.03125,1.2160728234743419,1.1634594351708811,1.1613464293531055,1.1676929512846996,AGE,16,True

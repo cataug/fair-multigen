@@ -1,0 +1,7 @@
+job_id,family,eval_split,dataset,seed,method,k,ablation,classifier,support_bucket,n_groups,eo_max_mean_within_bucket,aod_mean_within_bucket
+6542b8318caaf5cd,generic_baselines,test,census_income_kdd,46,ctgan,4,,rf,1-4,112,0.02356079862471161,0.01715044804547951
+6542b8318caaf5cd,generic_baselines,test,census_income_kdd,46,ctgan,4,,rf,5-9,47,0.0847909072472037,0.0459339736198021
+6542b8318caaf5cd,generic_baselines,test,census_income_kdd,46,ctgan,4,,rf,10-19,38,0.08396278748165029,0.04734042040409205
+6542b8318caaf5cd,generic_baselines,test,census_income_kdd,46,ctgan,4,,rf,20-49,46,0.1233054964890043,0.06629358013080221
+6542b8318caaf5cd,generic_baselines,test,census_income_kdd,46,ctgan,4,,rf,50-99,24,0.15813692280685157,0.08405355359035123
+6542b8318caaf5cd,generic_baselines,test,census_income_kdd,46,ctgan,4,,rf,100+,50,0.13815337512030834,0.07379251101607988

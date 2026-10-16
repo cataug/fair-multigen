@@ -1,0 +1,10 @@
+dataset_id,dataset_name,raw_path,raw_test_path,target_hint,task,source_family,status,notes
+adult,Adult,data/raw/adult/adult.data,data/raw/adult/adult.test,income,binary_classification,UCI,ready,Canonical Adult train/test files
+compas,COMPAS,data/raw/compas/compas-scores-two-years.csv,,two_year_recid,binary_classification,ProPublica,ready,Apply standard COMPAS filtering during preprocessing
+default_credit,Default Credit Card,data/raw/default_credit/default of credit card clients.xls,,default payment next month,binary_classification,UCI,ready,Excel source
+bank_marketing,Bank Marketing,data/raw/bank_marketing/bank/bank-full.csv,,y,binary_classification,UCI,ready,Use full 45211-row version
+communities_crime,Communities and Crime,data/raw/communities_crime/communities.data,,ViolentCrimesPerPop,classification_from_continuous,UCI,ready,Target binarization will be defined during preprocessing
+german_credit,German Credit,data/raw/german_credit/german.data,,credit_risk,binary_classification,UCI,ready,Original categorical representation
+census_income_kdd,Census Income KDD,data/raw/census_income_kdd/extracted/census-income.data,data/raw/census_income_kdd/extracted/census-income.test,income,binary_classification,UCI,ready,Large census benchmark
+diabetes130,Diabetes 130-US Hospitals,data/raw/diabetes130/diabetic_data.csv,,readmitted,binary_classification,UCI,ready,Binary readmission outcome will be defined during preprocessing
+law_school,Law School Admissions,data/raw/law_school/law-school-admission-binary.arff,,target,binary_classification,OpenML,ready,Resolve exact target column from ARFF metadata

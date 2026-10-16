@@ -1,0 +1,158 @@
+# ============================================================================
+# MultiFairGDT / fair-multigen
+# Keep source, scripts, logs, statistics, CSV results and figures.
+# Exclude environments, raw datasets, caches and large model checkpoints.
+# ============================================================================
+
+
+# ----------------------------------------------------------------------------
+# Python environments
+# ----------------------------------------------------------------------------
+.venv/
+.venv_*/
+venv/
+venv_*/
+env/
+env_*/
+
+
+# ----------------------------------------------------------------------------
+# Python caches / tooling caches
+# ----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+coverage.xml
+htmlcov/
+
+
+# ----------------------------------------------------------------------------
+# IDE / OS junk
+# ----------------------------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+
+# ----------------------------------------------------------------------------
+# Raw datasets / downloaded corpora
+#
+# If a lightweight metadata file is required for the paper, move/copy it
+# outside these raw-data directories before committing.
+# ----------------------------------------------------------------------------
+data/
+dataset/
+datasets/
+raw_data/
+raw-data/
+downloads/
+download/
+external_data/
+external-data/
+cache/
+.cache/
+
+
+# Common compressed/raw dataset formats
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.bz2
+*.xz
+*.gz
+
+
+# ----------------------------------------------------------------------------
+# Heavy ML checkpoints / weights
+#
+# Important: logs/results remain tracked. Only model-state binaries are ignored.
+# ----------------------------------------------------------------------------
+checkpoints/
+results/journal2026_v21/checkpoints/
+
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+*.onnx
+
+
+# ----------------------------------------------------------------------------
+# Other potentially huge binary artifacts
+# ----------------------------------------------------------------------------
+*.avi
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.flac
+
+
+# ----------------------------------------------------------------------------
+# Temporary files
+# ----------------------------------------------------------------------------
+*.tmp
+*.temp
+*.lock
+*.pid
+
+
+# ----------------------------------------------------------------------------
+# Automatically excluded files >90 MB at initial GitHub publication
+# ----------------------------------------------------------------------------
+/checkpoints/epoch=24-step=163700.ckpt
+/checkpoints/epoch=24-step=163700-v1.ckpt
+/checkpoints/epoch=24-step=163700-v2.ckpt
+/checkpoints/epoch=299-step=1964400.ckpt
+/checkpoints/epoch=299-step=1964400-v1.ckpt
+/checkpoints/epoch=299-step=1964400-v2.ckpt
+/checkpoints/epoch=299-step=1964400-v3.ckpt
+/checkpoints/epoch=299-step=1964400-v4.ckpt
+/checkpoints/epoch=299-step=197400.ckpt
+/checkpoints/epoch=299-step=197400-v1.ckpt
+/checkpoints/epoch=299-step=197400-v2.ckpt
+/checkpoints/epoch=299-step=197400-v3.ckpt
+/checkpoints/epoch=299-step=197400-v4.ckpt
+/checkpoints/epoch=299-step=321000.ckpt
+/checkpoints/epoch=299-step=321000-v1.ckpt
+/checkpoints/epoch=299-step=321000-v2.ckpt
+/checkpoints/epoch=299-step=321000-v3.ckpt
+/checkpoints/epoch=299-step=321000-v4.ckpt
+/checkpoints/epoch=299-step=40800.ckpt
+/checkpoints/epoch=299-step=40800-v1.ckpt
+/checkpoints/epoch=299-step=40800-v2.ckpt
+/checkpoints/epoch=299-step=40800-v3.ckpt
+/checkpoints/epoch=299-step=40800-v4.ckpt
+/checkpoints/epoch=50-step=333948.ckpt
+/data/processed/census_income_kdd.csv
+/data/raw/census_income_kdd/extracted/census-income.data
+/.venv_external/lib/python3.12/site-packages/llvmlite/binding/libllvmlite.so
+/.venv_external/lib/python3.12/site-packages/nvidia/cublas/lib/libcublasLt.so.12
+/.venv_external/lib/python3.12/site-packages/nvidia/cublas/lib/libcublas.so.12
+/.venv_external/lib/python3.12/site-packages/nvidia/cudnn/lib/libcudnn_adv_infer.so.8
+/.venv_external/lib/python3.12/site-packages/nvidia/cudnn/lib/libcudnn_adv_train.so.8
+/.venv_external/lib/python3.12/site-packages/nvidia/cudnn/lib/libcudnn_cnn_infer.so.8
+/.venv_external/lib/python3.12/site-packages/nvidia/cudnn/lib/libcudnn_cnn_train.so.8
+/.venv_external/lib/python3.12/site-packages/nvidia/cufft/lib/libcufft.so.11
+/.venv_external/lib/python3.12/site-packages/nvidia/curand/lib/libcurand.so.10
+/.venv_external/lib/python3.12/site-packages/nvidia/cusolver/lib/libcusolver.so.11
+/.venv_external/lib/python3.12/site-packages/nvidia/cusparse/lib/libcusparse.so.12
+/.venv_external/lib/python3.12/site-packages/nvidia/nccl/lib/libnccl.so.2
+/.venv_external/lib/python3.12/site-packages/nvidia/nvjitlink/lib/libnvJitLink.so.12
+/.venv_external/lib/python3.12/site-packages/_polars_runtime_32/_polars_runtime.abi3.so
+/.venv_external/lib/python3.12/site-packages/_polars_runtime_compat/_polars_runtime.abi3.so
+/.venv_external/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so
+/.venv_external/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so
+/.venv_external/lib/python3.12/site-packages/xgboost/lib/libxgboost.so

@@ -1,0 +1,11 @@
+{
+  "job_id": "bbdaafe5aed118ca",
+  "status": "failed",
+  "started": 1790096522.226568,
+  "host": "tahiti-Standard-PC-i440FX-PIIX-1996",
+  "pid": 3318350,
+  "finished": 1790096522.281213,
+  "error_type": "RuntimeError",
+  "error": "Synthcity baseline requested but synthcity is unavailable. Install requirements-deep.txt in a separate environment.",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/tahiti/MultiFairGDT/multifair/baselines.py\", line 81, in _synthcity_synth\n    from synthcity.plugins import Plugins\nModuleNotFoundError: No module named 'synthcity'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/tahiti/MultiFairGDT/multifair/runner.py\", line 239, in run_job\n    syn, meta = generate_external(\n                ^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/MultiFairGDT/multifair/baselines.py\", line 222, in generate_external\n    syn, meta = _synthcity_synth(train, dataset, n, seed, \"decaf\", n_iter=epochs)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/MultiFairGDT/multifair/baselines.py\", line 84, in _synthcity_synth\n    raise RuntimeError(\nRuntimeError: Synthcity baseline requested but synthcity is unavailable. Install requirements-deep.txt in a separate environment.\n"
+}

@@ -1,0 +1,2 @@
+job_id,family,dataset,seed,method,k,runtime_n,train_rows,fit_seconds,generation_seconds,feature_generation_seconds,samples_per_second,job_seconds,rss_start_mb,rss_end_mb,final_lambda_dp,final_lambda_eo,feature_lambda_dp,feature_lambda_eo,feature_corrected_column,candidate_count,tree_cache_hit
+d1f9568581042457,ablation,diabetes130,42,multifair,3,,71237,9.120915675070137,29.27920048101805,25.891224985942245,2433.024086370922,80.82988900085911,794.98828125,806.28515625,1.2481507363255913,1.3553389406847558,1.2241533818287893,1.3622874499734696,age,16,True

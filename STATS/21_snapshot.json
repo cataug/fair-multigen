@@ -1,0 +1,14 @@
+{
+  "generated": "2026-10-16T19:56:32.778626",
+  "project_root": "/home/tahiti/MultiFairGDT",
+  "experiment_root": "/home/tahiti/MultiFairGDT/results/journal2026_v21",
+  "plan_jobs": 1467,
+  "git_head": "",
+  "git_branch": "",
+  "git_dirty": false,
+  "status_counts": {
+    "success": 1392,
+    "failed": 69,
+    "running": 6
+  }
+}

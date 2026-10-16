@@ -1,0 +1,7 @@
+job_id,method,dataset,seed,status,pid,pid_alive,started_time,finished_time,elapsed_hours,error_group,error
+e4614f026106e788,decaf,census_income_kdd,45,running,1380727,False,2026-10-15 08:36:32,,35.333547692166434,,
+af4e231f9cd3819b,decaf,diabetes130,42,running,1405848,True,2026-10-16 01:15:18,,18.687435710430144,,
+a4ef599dc6c55035,decaf,diabetes130,43,running,1405942,True,2026-10-16 01:15:33,,18.683265440530246,,
+630409599133a34c,decaf,diabetes130,44,running,1406034,True,2026-10-16 01:15:43,,18.680476286212603,,
+2af38705abf787aa,decaf,diabetes130,45,running,1406127,True,2026-10-16 01:15:53,,18.677672986520662,,
+503991b7721f8a4a,decaf,diabetes130,46,running,1406219,True,2026-10-16 01:16:03,,18.674898874693447,,

@@ -1,0 +1,2 @@
+job_id,family,dataset,seed,method,k,runtime_n,train_rows,fit_seconds,generation_seconds,feature_generation_seconds,samples_per_second,job_seconds,rss_start_mb,rss_end_mb,final_lambda_dp,final_lambda_eo,feature_lambda_dp,feature_lambda_eo,feature_corrected_column,candidate_count,tree_cache_hit
+bf3d29d81406d5fc,ablation,german_credit,46,multifair,3,,700,0.05439226399175823,0.26860526809468865,0.23075365996919572,2606.054620467221,0.9613731210120022,1224.859375,1224.859375,1.0081091194122695,1.003162997565976,1.004432145425474,1.0043322448833438,foreign_worker,16,True

@@ -1,0 +1,2 @@
+job_id,family,dataset,seed,method,k,runtime_n,train_rows,fit_seconds,generation_seconds,feature_generation_seconds,samples_per_second,job_seconds,rss_start_mb,rss_end_mb,final_lambda_dp,final_lambda_eo,feature_lambda_dp,feature_lambda_eo,feature_corrected_column,candidate_count,tree_cache_hit
+c645e76e7d0e68ec,generic_baselines,communities_crime,46,tvae,0,,1395,108.77307115402073,0.8352151759900153,,1670.228271830009,112.14811468287371,1545.9296875,1546.1796875,,,,,,16,False
