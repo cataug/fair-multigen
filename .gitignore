@@ -156,3 +156,64 @@ results/journal2026_v21/checkpoints/
 /.venv_external/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so
 /.venv_external/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so
 /.venv_external/lib/python3.12/site-packages/xgboost/lib/libxgboost.so
+
+# ============================================================================
+# Additional exclusions for publication
+# ============================================================================
+
+# Ignore backup copies of gitignore
+.gitignore.backup_*
+
+# Jupyter-generated cache folders everywhere
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Dataset payloads: keep code/manifests, exclude actual datasets
+fairness_datasets/raw/
+fairness_datasets/processed/
+
+# Generic dataset locations
+data/
+dataset/
+datasets/
+raw_data/
+raw-data/
+external_data/
+external-data/
+downloads/
+download/
+
+# Environments
+.venv/
+.venv_*/
+venv/
+venv_*/
+
+# Heavy training state
+checkpoints/
+results/journal2026_v21/checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+*.onnx
+
+# Caches
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Large archives / media
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.avi
+*.mp4
+*.mkv
+*.mov
